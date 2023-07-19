@@ -179,6 +179,22 @@ font-weight: 600;
   opacity: 1;
   cursor: pointer;
 }
+.play-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.play-content{
+  align-items: right;
+}
+.play-images{
+  position: relative;
+}
+.cat-img{
+  position: absolute;
+  top: 360px;
+  right: 460px;
+}
 
 
 
@@ -189,7 +205,7 @@ font-weight: 600;
     max-width: 300px;
     margin: 0px auto;
   }
-  nav, .banner, .funny-img-container,
+  nav, .banner, .funny-img-container, .play-container,
    nav ul{
     flex-direction: column;
   }
@@ -226,6 +242,21 @@ font-weight: 600;
   .funny-tittle, .gamer-tittle{
     font-size: 30px;
   }
+  .banner-content h2{
+    font-size: 50px;
+  }
+  .banner-content h1{
+    font-size: 30px;
+  }
+  .banner-content p{
+    font-size: 16px;
+
+  }
+  .banner-content button{
+    padding: 10px 15px;
+    font-size: 16px;
+  }
+
 
 }
 
