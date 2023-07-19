@@ -69,10 +69,11 @@ font-weight: 700;
   gap: 4rem;
   width: 90%;
 }
-.banner-content{
+.banner-container{
   width: 50%;
   padding: 148px 240px;
   background-image: url("../images/Group\ 14.png");
+  background-repeat: no-repeat;
 }
 .banner-content h1{
   color: #0B0223;
@@ -99,17 +100,46 @@ margin-top: 1rem;
 
 
 @media screen and (max-width:576px) {
-  nav,
+  nav, .banner,
    nav ul{
     flex-direction: column;
   }
   nav ul{
     margin-top: 4rem;
   }
+  .banner{
+    width: 100%;
+  }
+  .banner-container{
+    padding: 150px 0px;
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+
+  }
+  .banner-img{
+    width: 100%;
+  }
 }
+/* tablet version */
 @media screen and (min-width:576px) and (max-width:992px) {
-  nav{
+  nav, .banner {
     flex-direction: column;
     gap: 2rem;
+  }
+  .banner-img{
+    width: 100%;
+  }
+  .banner{
+    width: 100%;
+  }
+  .banner-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 150px 0px;
+    background-size: 100% 100%;
   }
 }
