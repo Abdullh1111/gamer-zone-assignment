@@ -187,13 +187,13 @@ font-weight: 600;
 .play-content{
   align-items: right;
 }
-.play-images{
+/* .play-images{
   position: relative;
-}
+} */
 .cat-img{
-  position: absolute;
-  top: 360px;
-  right: 460px;
+  position: relative;
+  bottom: 250px;
+  right: 150px;
 }
 
 
@@ -256,6 +256,17 @@ font-weight: 600;
     padding: 10px 15px;
     font-size: 16px;
   }
+  .play-images{
+    width: 80%;
+  }
+  .boy-img{
+    width: 100%;
+  }
+  .cat-img{
+    width: 50%;
+    bottom: 100px;
+    right: 50px;
+  }
 
 
 }
@@ -267,7 +278,7 @@ font-weight: 600;
     max-width: 500px;
     margin: 0px auto;
   }
-  nav, .banner, .funny-img-container{
+  nav, .banner, .funny-img-container, .play-container{
     flex-direction: column;
     gap: 2rem;
   }
@@ -291,5 +302,16 @@ font-weight: 600;
   }
   .gamer-img, .funny-img img{
     width: 100%;
+  }
+  .play-images{
+    width: 80%;
+  }
+  .boy-img{
+    width: 100%;
+  }
+  .cat-img{
+    width: 50%;
+    bottom: 100px;
+    right: 50px;
   }
 }
