@@ -185,7 +185,11 @@ font-weight: 600;
 
 /* mobile version */
 @media screen and (max-width:576px) {
-  nav, .banner,
+  section{
+    max-width: 300px;
+    margin: 0px auto;
+  }
+  nav, .banner, .funny-img-container,
    nav ul{
     flex-direction: column;
   }
@@ -212,13 +216,27 @@ font-weight: 600;
     padding: 60px 0px;
     text-align: center;
   }
-  .gamer-img{
+  .gamer-img, .funny-img img{
     width: 100%;
   }
+  .gamer-text{
+    text-align: center;
+    font-size: 16px;
+  }
+  .funny-tittle, .gamer-tittle{
+    font-size: 30px;
+  }
+
 }
+
+
 /* tablet version */
 @media screen and (min-width:576px) and (max-width:992px) {
-  nav, .banner {
+  section{
+    max-width: 500px;
+    margin: 0px auto;
+  }
+  nav, .banner, .funny-img-container{
     flex-direction: column;
     gap: 2rem;
   }
@@ -240,7 +258,7 @@ font-weight: 600;
     padding: 60px 0px;
     text-align: center;
   }
-  .gamer-img{
+  .gamer-img, .funny-img img{
     width: 100%;
   }
 }
