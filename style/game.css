@@ -139,8 +139,16 @@ font-size: 48px;
 font-weight: 700;
 }
 .funny{
+  margin-top: 120px;
   text-align: center;
-  margin: 120px 0px;
+}
+.funny .gamer-text{
+  margin: 10px 0px 50px;
+}
+.funny-img-container{
+  display: flex;
+  gap: 24px;
+  margin-bottom: 120px;
 }
 
 
