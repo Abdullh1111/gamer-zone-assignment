@@ -161,8 +161,10 @@ font-weight: 700;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100%;
-  width: 100%;
+  height: 398px;
+  width: 340px;
+  border: 2px solid transparent;
+  border-radius: 16px;
   gap: 10px;
   opacity: 0;
   background-color: rgba(0, 0, 0, 0.7);
@@ -179,7 +181,9 @@ font-weight: 600;
 .watch:hover{
   opacity: 1;
   cursor: pointer;
+  border: 2px solid #FF42A5;
 }
+/* play section */
 .play-container{
   display: flex;
   justify-content: space-between;
@@ -217,8 +221,6 @@ transition: all 0.3s;
 }
 .btn-container img{
   height: 35px;
-}
-.btn-container button{
 }
 .btn-container button:hover{
   border: 2px solid  #FF42A5;
@@ -274,7 +276,7 @@ font-weight: 500;
 /* mobile version */
 @media screen and (max-width:576px) {
   section{
-    max-width: 300px;
+    max-width: 320px;
     margin: 0px auto;
   }
   nav, .banner, .funny-img-container, .play-container,
@@ -313,6 +315,7 @@ font-weight: 500;
   }
   .funny-tittle, .gamer-tittle{
     font-size: 30px;
+    text-align: center;
   }
   .banner-content h2{
     font-size: 50px;
@@ -336,7 +339,7 @@ font-weight: 500;
   }
   .cat-img{
     width: 50%;
-    bottom: 70px;
+    bottom: 90px;
     right: 30px;
   }
   .btn-container{
@@ -354,6 +357,46 @@ font-weight: 500;
   }
   .btn-container img{
     height: 24px;
+  }
+  footer{
+    width: 100%;
+  }
+  .footer-text-container{
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    font-size: 16px;
+    justify-items: center;
+  }
+  .footer-icon{
+    grid-template-columns: repeat(3,1fr);
+  }
+  .footer-terms{
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+    margin: 38px 0px 15px;
+  }
+  .footer-copy{
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .footer-copy p{
+    font-size: 5px;
+  }
+  .footer-terms p{
+    font-size: 10px;
+  }
+  .footer-icon i{
+    font-size: 26px;
+  }
+  .footer-text-container p{
+    font-size: 14px;
+  }
+  footer .nav-img img{
+    height: 24px;
+  }
+  footer .nav-img p{
+    font-size: 2rem;
   }
 
 
@@ -416,5 +459,28 @@ font-weight: 500;
   }
   .btn-container img{
     height: 34px;
+  }
+  footer{
+    width: 100%;
+  }
+  .footer-text-container{
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    font-size: 16px;
+    justify-items: center;
+  }
+  .footer-icon{
+    grid-template-columns: repeat(4,1fr);
+    justify-items: center;
+    gap: 20px;
+  }
+  .insta{
+    grid-column: span 2;
+  }
+  .footer-terms{
+    grid-template-columns: repeat(2,1fr);
+  }
+  .footer-copy{
+    margin-top: 60px;
   }
 }
