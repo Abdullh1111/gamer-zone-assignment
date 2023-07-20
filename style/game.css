@@ -79,6 +79,7 @@ font-weight: 700;
   padding: 148px 240px;
   background-image: url("../images/Group\ 14.png");
   background-repeat: no-repeat;
+  /* background-size: contain; */
 }
 .banner-content h1{
   color: #0B0223;
@@ -486,7 +487,7 @@ font-weight: 500;
 /* for laptop */
 @media screen and (min-width:992px) and (max-width:1250px) {
   section{
-    max-width: 980px;
+    max-width: 900px;
     margin: 0px auto;
   }
   .funny-img-container{
@@ -505,7 +506,23 @@ font-weight: 500;
     gap: 0px;
   }
   .banner img{
+    width: 30vw;
+    height: 70vh;
+  }
+  .banner-container{
     width: 40vw;
-    height: 90vh;
+    padding: 148px 200px;
+    background-size: contain;
+  }
+  .cmn-btn{
+    padding: 20px 30px;
+  }
+  .cat-img{
+    width: 20vw;
+    bottom: 150px;
+    right: 80px;
+  }
+  .boy-img{
+    width: 35vw;
   }
 }
