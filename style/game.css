@@ -492,9 +492,14 @@ font-weight: 500;
   .funny-img-container{
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    gap: 100px;
   }
   .gamer-container{
-    flex-direction: column-reverse;
+    padding: 55px 0px;
+    max-width: 100vw;
+  }
+  .gamer-container img{
+    width: 50vw;
   }
   .banner{
     gap: 0px;
