@@ -162,8 +162,8 @@ font-weight: 700;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 398px;
-  width: 340px;
+  height: 99%;
+  width: 99%;
   border: 2px solid transparent;
   border-radius: 16px;
   gap: 10px;
@@ -328,7 +328,7 @@ font-weight: 500;
     font-size: 16px;
 
   }
-  .banner-content button{
+  .cmn-btn{
     padding: 10px 15px;
     font-size: 16px;
   }
@@ -452,7 +452,7 @@ font-weight: 500;
     grid-template-columns: repeat(3, 180px);
     justify-items: center;
   }
-  .btn-container button{
+  .cmn-btn{
     font-size: 16px;
     margin: 20px 0px;
     gap: 0px;
@@ -502,6 +502,11 @@ font-weight: 500;
   }
   .gamer-container img{
     width: 50vw;
+  }
+  .watch{
+    height: 400px;
+    width: 342px;
+    border-radius: 16px;
   }
   .banner{
     gap: 0px;
