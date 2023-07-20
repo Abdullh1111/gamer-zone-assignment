@@ -18,7 +18,7 @@ section{
 font-size: 1.25rem;
 font-weight: 600;
 background-color: #FF42A5;
-padding: 20px 40px;
+padding: 20px 30px;
 border-radius: 48px;
 border: none;
 margin-right: 20px;
@@ -104,9 +104,10 @@ margin-top: 1rem;
 .gamer-container{
   display: flex;
   justify-content: center;
-  padding:55px 200px;
+  padding:55px 30px;
   align-items: center;
   text-align: end;
+  width: 100vw;
   background-image: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 }
 .gamer-tittle{
@@ -485,9 +486,9 @@ font-weight: 500;
   }
 }
 /* for laptop */
-@media screen and (min-width:992px) and (max-width:1250px) {
+@media screen and (min-width:992px) and (max-width:1520px) {
   section{
-    max-width: 900px;
+    max-width:1000px;
     margin: 0px auto;
   }
   .funny-img-container{
@@ -497,7 +498,7 @@ font-weight: 500;
   }
   .gamer-container{
     padding: 55px 0px;
-    max-width: 100vw;
+    max-width: 95vw;
   }
   .gamer-container img{
     width: 50vw;
@@ -507,7 +508,7 @@ font-weight: 500;
   }
   .banner img{
     width: 30vw;
-    height: 70vh;
+    height: 50vh;
   }
   .banner-container{
     width: 40vw;
